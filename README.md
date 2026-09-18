@@ -1,2 +1,6 @@
-# ProgrammingInJava
-Vityarthi project
+Project Title: AI Answer evaluator
+Project overview: An AI answer evaluator to help teachers evaluate student's answers efficiently and according to a fixed evaluation rubric.
+Features: Allows the input of a question , a reference answer as a benchmark and a candidate response, evaluates the response to the question according to the benchmark and gives score ,feedback ,suggestions, highlights weaknesses and more.
+Technologies/tools used: java 11, groq api, openai gpt oss120b llm.
+Steps to install & run the project: We need to install groq in computer system using command prompt, should have atleast java11, generate a groq api key by creating an account at groq and generating it thereafter, should set the api key as an environment variable,compiling the 3 files in source code folder, running the main.java file.
+Instructions for testing: Make sure the steps to install and run the project are followed. When running the main.java file, three inputs will be asked , question , candidate answer and reference answer, these 3 should be provided and final evaluated result will be given.
